@@ -21,9 +21,17 @@ En el projecto vamos a source packages -> <default package> click derecho -> New
 
 Respuestas al questionario.
 ¿Cuanto tiempo te llevo resolver la práctica ?
-4 horas
+5 horas
 
 ¿Como se llaman los archivos de configuraciones de Hibernate, tuviste alguna dificultad con la configuración de estos?
 hibernate.cfg.xml, hibernate.reveng.
 Tuve muchas deificultades pues al principio no creaba los POJOS y faltaba el driver de la base de datos, 
 no sabia como configurar hibernate.connection.url y no sabia donde agregarlo.
+
+
+Diseño de la Base de Datos.
+
+Pense en dos tablas una para el usuario que se identifica de manera única con su correo electronico y su contraseña, 
+miesntras que la tabla codigos guarda los códigos de seguridad que el usuario ha generado, la fecha en que fue generado 
+y el tipo de sispositivo desde el cual se solicito.
+
